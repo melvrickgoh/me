@@ -1,0 +1,379 @@
+{
+  "load": [
+    "app/packages/underscore/underscore.js",
+    "app/packages/meteor/server_environment.js",
+    "app/packages/meteor/helpers.js",
+    "app/packages/meteor/setimmediate.js",
+    "app/packages/meteor/timers.js",
+    "app/packages/meteor/errors.js",
+    "app/packages/meteor/fiber_helpers.js",
+    "app/packages/meteor/dynamics_nodejs.js",
+    "app/packages/meteor/url_server.js",
+    "app/packages/meteor/url_common.js",
+    "app/packages/deps/deps.js",
+    "app/packages/random/random.js",
+    "app/packages/json/json2.js",
+    "app/packages/ejson/ejson.js",
+    "app/packages/ejson/base64.js",
+    "app/packages/logging/logging.js",
+    "app/packages/check/match.js",
+    "app/packages/routepolicy/routepolicy.js",
+    "app/packages/livedata/stream_client_nodejs.js",
+    "app/packages/livedata/stream_client_common.js",
+    "app/packages/livedata/stream_server.js",
+    "app/packages/ordered-dict/ordered_dict.js",
+    "app/packages/minimongo/minimongo.js",
+    "app/packages/minimongo/selector.js",
+    "app/packages/minimongo/modify.js",
+    "app/packages/minimongo/diff.js",
+    "app/packages/minimongo/objectid.js",
+    "app/packages/livedata/writefence.js",
+    "app/packages/livedata/crossbar.js",
+    "app/packages/livedata/livedata_common.js",
+    "app/packages/livedata/livedata_connection.js",
+    "app/packages/livedata/livedata_server.js",
+    "app/packages/livedata/server_convenience.js",
+    "app/packages/mongo-livedata/mongo_driver.js",
+    "app/packages/mongo-livedata/local_collection_driver.js",
+    "app/packages/mongo-livedata/remote_collection_driver.js",
+    "app/packages/mongo-livedata/collection.js",
+    "app/packages/startup/startup_server.js",
+    "app/packages/handlebars/parse.js",
+    "app/packages/past/past.js",
+    "app/packages/autopublish/autopublish.js",
+    "app/packages/insecure/insecure.js",
+    "app/packages/backbone/backbone.js",
+    "app/server/server.js"
+  ],
+  "manifest": [
+    {
+      "path": "static_cacheable/f8d883a04d29567f09ac41f48c8b5e8235c50c08.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/f8d883a04d29567f09ac41f48c8b5e8235c50c08.js",
+      "size": 303433,
+      "hash": "f8d883a04d29567f09ac41f48c8b5e8235c50c08"
+    },
+    {
+      "path": "static_cacheable/ec5c81cd02d959a5ac8b3a025881320086ecd5bb.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/ec5c81cd02d959a5ac8b3a025881320086ecd5bb.css",
+      "size": 8297,
+      "hash": "ec5c81cd02d959a5ac8b3a025881320086ecd5bb"
+    },
+    {
+      "path": "static/favicon.ico",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/favicon.ico",
+      "size": 3171,
+      "hash": "ce881afd76e06321d9efa5a6bc8f357c9b780bb6"
+    },
+    {
+      "path": "static/fonts/futura-light.ttf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/fonts/futura-light.ttf",
+      "size": 22808,
+      "hash": "ffb3afc6beefb44d2c59601de7a05483518531ac"
+    },
+    {
+      "path": "static/fonts/futura.ttf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/fonts/futura.ttf",
+      "size": 22396,
+      "hash": "90cf3231e5a1ddde16a26e460199ffc5f3c5925a"
+    },
+    {
+      "path": "static/fonts/gotham.ttf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/fonts/gotham.ttf",
+      "size": 32676,
+      "hash": "f8aaf8ca0d655dbba9b07fabed658567c2a94103"
+    },
+    {
+      "path": "static/fonts/homestead.ttf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/fonts/homestead.ttf",
+      "size": 154656,
+      "hash": "fa11bcf1983cb52b6f4820a59cc752e47fed205f"
+    },
+    {
+      "path": "static/img/arrow-left.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/arrow-left.png",
+      "size": 3592,
+      "hash": "f0700899bfeae016bb206d281cdc38350404221b"
+    },
+    {
+      "path": "static/img/arrow-right.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/arrow-right.png",
+      "size": 3575,
+      "hash": "e8b56e5a4d74447c712699fecb73d4a6b4a029ec"
+    },
+    {
+      "path": "static/img/fb.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/fb.png",
+      "size": 3404,
+      "hash": "d83208bdd245014c77b9154d7fb60c365a9353ac"
+    },
+    {
+      "path": "static/img/home.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/home.png",
+      "size": 3885,
+      "hash": "ddbe361bb0bb55e77c12dae7f875dcb367df756c"
+    },
+    {
+      "path": "static/img/icon-address.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/icon-address.png",
+      "size": 3230,
+      "hash": "256463f53bf5da05085ca85bfe86e21b67ac4cb5"
+    },
+    {
+      "path": "static/img/icon-mail.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/icon-mail.png",
+      "size": 3263,
+      "hash": "f1af308808043c02e331193b9043a4cb1b08c745"
+    },
+    {
+      "path": "static/img/icon-mobile.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/icon-mobile.png",
+      "size": 3041,
+      "hash": "efa7fe51a6a78f9c2d66766b462fed96b91ddc62"
+    },
+    {
+      "path": "static/img/link.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/link.png",
+      "size": 3355,
+      "hash": "fe73238a9bd75d961f23f1dab0a37990ab2cbeba"
+    },
+    {
+      "path": "static/img/linkedin.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/linkedin.png",
+      "size": 3943,
+      "hash": "b4ede484747a174ccda91938eeaa60734c4f5e68"
+    },
+    {
+      "path": "static/img/none.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/img/none.png",
+      "size": 2822,
+      "hash": "cf2dfa7960bf385ece53c323778606b5f2a7d76c"
+    },
+    {
+      "path": "static/melvrick_goh.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/melvrick_goh.png",
+      "size": 5317,
+      "hash": "a10ed284cb22bfae989c667e7d0a928589bc99b4"
+    },
+    {
+      "path": "static/melvrick_goh_logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/melvrick_goh_logo.png",
+      "size": 2930,
+      "hash": "4ca6fc4b011683c1cbd73eaa7509aa08fd9958f8"
+    },
+    {
+      "path": "static/work/fyp-project/blur-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/fyp-project/blur-normal.png",
+      "size": 450014,
+      "hash": "f82fbca1cb2492d7717e32baed510ea0e68cf4dc"
+    },
+    {
+      "path": "static/work/fyp-project/blur-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/fyp-project/blur-small.png",
+      "size": 440057,
+      "hash": "e704ed458ad4a9bd593c77e8fea163519d84ca0d"
+    },
+    {
+      "path": "static/work/fyp-project/clear-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/fyp-project/clear-normal.png",
+      "size": 1281020,
+      "hash": "40c2b3d53d77d4f310093390cb2d0d3144682410"
+    },
+    {
+      "path": "static/work/fyp-project/clear-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/fyp-project/clear-small.png",
+      "size": 1281020,
+      "hash": "40c2b3d53d77d4f310093390cb2d0d3144682410"
+    },
+    {
+      "path": "static/work/fyp-project/logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/fyp-project/logo.png",
+      "size": 10123,
+      "hash": "b1af87279d7dc9cb65bdf5b5df22c860fda2f0fa"
+    },
+    {
+      "path": "static/work/internship-dbs/blur-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/internship-dbs/blur-normal.png",
+      "size": 216514,
+      "hash": "5afc0d075dbdca9ba2e385a0a91098fd75222cdf"
+    },
+    {
+      "path": "static/work/internship-dbs/blur-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/internship-dbs/blur-small.png",
+      "size": 218633,
+      "hash": "f26e12177e9b28d493a7d35e604b0862f00c3ed9"
+    },
+    {
+      "path": "static/work/internship-dbs/clear-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/internship-dbs/clear-normal.png",
+      "size": 694207,
+      "hash": "bfeb7bbe279fc9317a8d4ef9cf84fca6f7520a97"
+    },
+    {
+      "path": "static/work/internship-dbs/clear-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/internship-dbs/clear-small.png",
+      "size": 457122,
+      "hash": "a3543375e78460aa1619cbc76097553a28817849"
+    },
+    {
+      "path": "static/work/internship-dbs/logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/internship-dbs/logo.png",
+      "size": 24607,
+      "hash": "93b9868bc910111603b65ce878578fc8b134c574"
+    },
+    {
+      "path": "static/work/resume.pdf",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/resume.pdf",
+      "size": 304507,
+      "hash": "09b2e7b6dd9e40a19a0f3a44eddd196e84685960"
+    },
+    {
+      "path": "static/work/resume_logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/resume_logo.png",
+      "size": 4091,
+      "hash": "a90edcfee516854e92c2d15f7b9c344124c59e9b"
+    },
+    {
+      "path": "static/work/va-project/blur-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/va-project/blur-normal.png",
+      "size": 194642,
+      "hash": "1a4a397a8a022ded9de52d6001ea2ec101abc395"
+    },
+    {
+      "path": "static/work/va-project/blur-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/va-project/blur-small.png",
+      "size": 131499,
+      "hash": "5a7369a018fa0fc4511d03047d3647476dd06c2d"
+    },
+    {
+      "path": "static/work/va-project/clear-normal.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/va-project/clear-normal.png",
+      "size": 162536,
+      "hash": "2be05f509a22f83464e66331b8c41f14b5d72188"
+    },
+    {
+      "path": "static/work/va-project/clear-small.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/va-project/clear-small.png",
+      "size": 162536,
+      "hash": "2be05f509a22f83464e66331b8c41f14b5d72188"
+    },
+    {
+      "path": "static/work/va-project/logo.png",
+      "where": "client",
+      "type": "static",
+      "cacheable": false,
+      "url": "/work/va-project/logo.png",
+      "size": 14965,
+      "hash": "e97120148a873699c16ab07bcfcd71cddfef84cd"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "80a3c23b38ae61352764b488ac78da21e820d994"
+    }
+  ]
+}

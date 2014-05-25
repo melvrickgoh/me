@@ -1,0 +1,30 @@
+{
+  "name": "melvrickgoh",
+  "version": "0.0.0",
+  "description": "personal site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melvrickgoh/me.git"
+  },
+  "keywords": [
+    "melvrickgoh",
+    "melvrick",
+    "heroku"
+  ],
+  "author": "melvrickgoh",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/melvrickgoh/me/issues"
+  },
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~4.3.1"
+  },
+  "engines": {
+    "node": "0.10.25"
+  }
+}
